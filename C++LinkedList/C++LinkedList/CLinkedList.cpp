@@ -54,10 +54,10 @@ int LFirst(List * plist, Data * pdata)
     if (plist->tail == NULL)
         return FALSE;
 
-    plist->cur = plist->tail->next;
-    plist->before = plist->tail;
+    plist->cur = plist->tail->next;     // cur refer to head
+    plist->before = plist->tail;        // before refer to tail
 
-    *pdata = plist->cur->data;
+    *pdata = plist->cur->data;          // return data of cur
     return TRUE;
 }
 
@@ -71,4 +71,18 @@ int LNext(List * plist, Data * data)
 
     *data = plist->cur->data;
     return TRUE;
+}
+
+Data LRemove(List * plist)
+{
+    if (plist->tail == NULL)
+        return FALSE;
+
+    int temp = plist->cur->data;
+    plist->before->next = plist->cur->next;
+    plist->cur = plist->before;
+
+
+
+    
 }

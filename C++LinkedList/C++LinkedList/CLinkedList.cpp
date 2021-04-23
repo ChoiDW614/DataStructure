@@ -22,7 +22,28 @@ void LInsert(List * plist, Data data)
     }
     else
     {
+        newNode->next = plist->tail->next;
+        plist->tail->next = newNode;
+        plist->tail = newNode;      // different from LInsertFront
+    }
 
+    (plist->numOfData)++;
+}
+
+void LInsertFront(List * plist, Data data)
+{
+    Node * newNode = new Node;
+    newNode->data = data;
+
+    if (plist->tail == NULL)        // same as Linsert
+    {
+        plist->tail = newNode;
+        newNode->next = newNode;
+    }
+    else
+    {
+        newNode->next = plist->tail->next;
+        plist->tail->next = newNode;
     }
 
     (plist->numOfData)++;

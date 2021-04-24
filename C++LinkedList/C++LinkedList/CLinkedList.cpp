@@ -75,14 +75,29 @@ int LNext(List * plist, Data * data)
 
 Data LRemove(List * plist)
 {
+    Node * rpos = plist->cur;
+    Data rdata = rpos->data;
+
     if (plist->tail == NULL)
         return FALSE;
-
-    int temp = plist->cur->data;
+    
+    if (plist->cur == plist->tail)
+    {
+        if (plist->tail == plist->tail->next)
+        {
+            plist->tail == NULL;
+        }
+        plist->tail = plist->before;
+    }
     plist->before->next = plist->cur->next;
     plist->cur = plist->before;
 
+    delete rpos;
+    (plist->numOfData)--;
+    return rdata;
+}
 
-
-    
+int LCount(List * plist)
+{
+    return plist->numOfData;
 }

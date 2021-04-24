@@ -85,7 +85,7 @@ Data LRemove(List * plist)
     {
         if (plist->tail == plist->tail->next)
         {
-            plist->tail == NULL;
+            plist->tail = NULL;
         }
         plist->tail = plist->before;
     }

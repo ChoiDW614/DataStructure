@@ -124,7 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="CLinkedList.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="CLinkedListMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLinkedList.h" />

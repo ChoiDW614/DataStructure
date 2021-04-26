@@ -125,9 +125,11 @@
   <ItemGroup>
     <ClCompile Include="CLinkedList.cpp" />
     <ClCompile Include="CLinkedListMain.cpp" />
+    <ClCompile Include="NightDutyMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CLinkedList.h" />
+    <ClInclude Include="EmployeeInformation.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

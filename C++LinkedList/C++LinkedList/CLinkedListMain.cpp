@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "CLinkedList.h"
 
@@ -65,3 +66,4 @@ int main()
         cout << endl;
     }
 }
+*/

@@ -1,10 +1,13 @@
 #ifndef __C_LINKED_LIST_H__
 #define __C_LINKED_LIST_H__
 
+#include "EmployeeInformation.h"
+
 constexpr auto TRUE = 1;
 constexpr auto FALSE = 0;
 
-typedef int Data;
+// typedef int Data;
+typedef Epe * Data;
 
 typedef class node
 {

@@ -27,9 +27,9 @@ typedef DBLinkedList List;
 void ListInit(List * plist);
 void LInsert(List * plist, Data data);
 
-int LFirst(List * plist, Data * data);
-int LNext(List * plist, Data * data);
-int LPrevious(List * plist, Data * data);
+int LFirst(List * plist, Data * pdata);
+int LNext(List * plist, Data * pdata);
+int LPrevious(List * plist, Data * pdata);
 
 int LCount(List * plist);
 

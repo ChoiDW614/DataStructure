@@ -1,24 +1,22 @@
-/****************************************************************
 #include <iostream>
 #include <stdlib.h>
-#include "ArrayBaseStack.h"
+#include "ListBaseStack.h"
 
 int main()
 {
-    // create and initialze the stack /////
+    // create and initialize the stack /////
     Stack stack;
     StackInit(&stack);
 
-    // push data /////
+    // Push data /////
     SPush(&stack, 1);   SPush(&stack, 2);
     SPush(&stack, 3);   SPush(&stack, 4);
     SPush(&stack, 5);
 
-    // pop data /////
+    // Pop data /////
     while (!SIsEmpty(&stack))
         std::cout << SPop(&stack) << " ";
 
     system("PAUSE");
     return 0;
 }
-****************************************************************/

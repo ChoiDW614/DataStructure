@@ -130,6 +130,7 @@
     <ClCompile Include="ArrayBaseStack.cpp" />
     <ClCompile Include="ArrayBaseStackMain.cpp" />
     <ClCompile Include="ListBaseStack.cpp" />
+    <ClCompile Include="ListBaseStackMain.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

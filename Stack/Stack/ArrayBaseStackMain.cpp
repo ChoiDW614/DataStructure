@@ -14,7 +14,7 @@ int main()
     SPush(&stack, 5);
 
     // pop data /////
-    while (SIsEmpty(&stack))
+    while (!SIsEmpty(&stack))
         std::cout << SPop(&stack) << " ";
 
     system("PAUSE");

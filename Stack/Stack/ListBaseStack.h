@@ -15,6 +15,7 @@ public:
 
 typedef class listStack
 {
+public:
     Node * head;
 }ListStack;
 

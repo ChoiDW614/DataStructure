@@ -9,7 +9,7 @@ void StackInit(Stack * pStack)
 
 int SIsEmpty(Stack * pStack)
 {
-    if(pstack->head == nullptr)
+    if(pStack->head == nullptr)
         return TURE;
     else
         return FALSE;

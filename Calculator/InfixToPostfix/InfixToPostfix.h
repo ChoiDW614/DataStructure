@@ -1,8 +1,6 @@
-//
-// Created by 최동욱 on 2021-05-19.
-//
+#ifndef CALCULATOR_INFIX_TO_POSTFIX_H
+#define CALCULATOR_INFIX_TO_POSTFIX_H
 
-#ifndef CALCULATOR_INFIXTOPOSTFIX_H
-#define CALCULATOR_INFIXTOPOSTFIX_H
+void ConvToRPNExp(char exp[]);      // Convert to a formula for posterior notation
 
-#endif //CALCULATOR_INFIXTOPOSTFIX_H
+#endif //CALCULATOR_INFIX_TO_POSTFIX_H

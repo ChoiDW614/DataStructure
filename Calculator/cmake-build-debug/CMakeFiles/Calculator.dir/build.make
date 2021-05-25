@@ -60,28 +60,9 @@ include CMakeFiles\Calculator.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Calculator.dir\flags.make
 
-CMakeFiles\Calculator.dir\main.cpp.obj: CMakeFiles\Calculator.dir\flags.make
-CMakeFiles\Calculator.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculator.dir/main.cpp.obj"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calculator.dir\main.cpp.obj /FdCMakeFiles\Calculator.dir\ /FS -c D:\Github\DataStructure\Calculator\main.cpp
-<<
-
-CMakeFiles\Calculator.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Calculator.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Calculator.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Calculator\main.cpp
-<<
-
-CMakeFiles\Calculator.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Calculator.dir/main.cpp.s"
-	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Calculator.dir\main.cpp.s /c D:\Github\DataStructure\Calculator\main.cpp
-<<
-
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: CMakeFiles\Calculator.dir\flags.make
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: ..\ListBaseStack\ListBaseStack.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Calculator.dir/ListBaseStack/ListBaseStack.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Calculator.dir/ListBaseStack/ListBaseStack.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj /FdCMakeFiles\Calculator.dir\ /FS -c D:\Github\DataStructure\Calculator\ListBaseStack\ListBaseStack.cpp
 <<
@@ -100,7 +81,7 @@ CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.s: cmake_force
 
 CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: CMakeFiles\Calculator.dir\flags.make
 CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: ..\InfixToPostfix\InfixToPostfix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Calculator.dir/InfixToPostfix/InfixToPostfix.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Calculator.dir/InfixToPostfix/InfixToPostfix.cpp.obj"
 	C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj /FdCMakeFiles\Calculator.dir\ /FS -c D:\Github\DataStructure\Calculator\InfixToPostfix\InfixToPostfix.cpp
 <<
@@ -119,19 +100,17 @@ CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.s: cmake_force
 
 # Object files for target Calculator
 Calculator_OBJECTS = \
-"CMakeFiles\Calculator.dir\main.cpp.obj" \
 "CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj" \
 "CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj"
 
 # External object files for target Calculator
 Calculator_EXTERNAL_OBJECTS =
 
-Calculator.exe: CMakeFiles\Calculator.dir\main.cpp.obj
 Calculator.exe: CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj
 Calculator.exe: CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj
 Calculator.exe: CMakeFiles\Calculator.dir\build.make
 Calculator.exe: CMakeFiles\Calculator.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Calculator.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Calculator\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Calculator.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Calculator.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~3\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Calculator.dir\objects1.rsp @<<
  /out:Calculator.exe /implib:Calculator.lib /pdb:D:\Github\DataStructure\Calculator\cmake-build-debug\Calculator.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

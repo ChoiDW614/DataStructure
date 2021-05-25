@@ -96,9 +96,6 @@
 		<Unit filename="D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.h">
 			<Option target="Calculator"/>
 		</Unit>
-		<Unit filename="D:/Github/DataStructure/Calculator/main.cpp">
-			<Option target="Calculator"/>
-		</Unit>
 		<Unit filename="D:/Github/DataStructure/Calculator/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

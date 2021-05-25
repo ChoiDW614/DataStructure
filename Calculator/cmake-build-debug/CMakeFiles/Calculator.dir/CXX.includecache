@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfix.cpp
-iostream
--
-cstring
--
-cctype
--
-InfixToPostfix.h
-D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfix.h
-D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.h
--
-
-D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfix.h
-
-D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.cpp
-iostream
--
-cstdlib
--
-ListBaseStack.h
-D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.h
-
-D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.h
-
-D:/Github/DataStructure/Calculator/main.cpp
-iostream
--
-

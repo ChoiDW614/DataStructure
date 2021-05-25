@@ -1,7 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Calculator.dir/InfixToPostfix/InfixToPostfix.cpp.obj"
   "CMakeFiles/Calculator.dir/ListBaseStack/ListBaseStack.cpp.obj"
-  "CMakeFiles/Calculator.dir/main.cpp.obj"
   "Calculator.exe"
   "Calculator.exe.manifest"
   "Calculator.lib"

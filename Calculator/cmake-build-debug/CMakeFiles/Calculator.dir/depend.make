@@ -8,5 +8,3 @@ CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: ..\ListBaseStac
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: ..\ListBaseStack\ListBaseStack.cpp
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: ..\ListBaseStack\ListBaseStack.h
 
-CMakeFiles\Calculator.dir\main.cpp.obj: ..\main.cpp
-

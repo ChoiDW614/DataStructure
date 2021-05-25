@@ -6,7 +6,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfix.cpp" "D:/Github/DataStructure/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/InfixToPostfix/InfixToPostfix.cpp.obj"
   "D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.cpp" "D:/Github/DataStructure/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/ListBaseStack/ListBaseStack.cpp.obj"
-  "D:/Github/DataStructure/Calculator/main.cpp" "D:/Github/DataStructure/Calculator/cmake-build-debug/CMakeFiles/Calculator.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

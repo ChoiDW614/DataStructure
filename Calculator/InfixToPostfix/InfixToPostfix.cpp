@@ -17,6 +17,7 @@ int GetOpPrec(char Op)
             return 3;
         case '(':
             return 1;
+        default: ;
     }
 
     return -1;
@@ -35,7 +36,7 @@ int WhoPrecOp(char Op1, char Op2)
 void ConvToRPNExp(char exp[])
 {
     Stack stack;
-    int explen = strlen(exp);
+    signed int explen = strlen(exp);
     char *convExp = new char(explen);
 
     int i, idx = 0;
@@ -60,7 +61,7 @@ void ConvToRPNExp(char exp[])
                     SPush(&stack, tok);
                     break;
                 case ')':
-                    while(1)
+                    while(true)
                     {
                         popOp = SPop(&stack);
                         if(popOp == '(')
@@ -74,6 +75,8 @@ void ConvToRPNExp(char exp[])
                         convExp[idx++] = SPop(&stack);
                     SPush(&stack, tok);
                     break;
+                default: ;
+                    //THIS CODE BLOCK SHOULD NEVER BE EXECUTED!
             }
         }
     }

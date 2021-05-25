@@ -9,11 +9,11 @@ int main()
 
     ConvToRPNExp(exp1);
     ConvToRPNExp(exp2);
-    ConvToRPNExp(epx3);
+    ConvToRPNExp(exp3);
 
-    std::cout << "'" << exp1 << "'" << endl;
-    std::cout << "'" << exp2 << "'" << endl;
-    std::cout << "'" << exp3 << "'" << endl;
+    std::cout << "'" << exp1 << "'" << std::endl;
+    std::cout << "'" << exp2 << "'" << std::endl;
+    std::cout << "'" << exp3 << "'" << std::endl;
 
     return 0;
 }

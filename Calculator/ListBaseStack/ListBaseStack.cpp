@@ -10,7 +10,7 @@ void StackInit(Stack * pStack)
 int SIsEmpty(Stack * pStack)
 {
     if(pStack->head == nullptr)
-        return TURE;
+        return TRUE;
     else
         return FALSE;
 }
@@ -32,7 +32,7 @@ Data SPop(Stack * pStack)
 
     if(SIsEmpty(pStack))
     {
-        std::cout << "Stack Memory Error" << endl;
+        std::cout << "Stack Memory Error" << std::endl;
         exit(-1);
     }
 
@@ -48,7 +48,7 @@ Data SPeek(Stack * pStack)
 {
     if(SIsEmpty(pStack))
     {
-        std::cout << "Stack Memory Error" << endl;
+        std::cout << "Stack Memory Error" << std::endl;
         exit(-1);
     }
 

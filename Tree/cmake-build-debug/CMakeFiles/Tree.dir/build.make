@@ -79,17 +79,38 @@ CMakeFiles\Tree.dir\BinaryTree.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tree.dir\BinaryTree.cpp.s /c D:\Github\DataStructure\Tree\BinaryTree.cpp
 <<
 
+CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj: CMakeFiles\Tree.dir\flags.make
+CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj: ..\BinaryTreeTraverseMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Tree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tree.dir/BinaryTreeTraverseMain.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj /FdCMakeFiles\Tree.dir\ /FS -c D:\Github\DataStructure\Tree\BinaryTreeTraverseMain.cpp
+<<
+
+CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tree.dir/BinaryTreeTraverseMain.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Tree\BinaryTreeTraverseMain.cpp
+<<
+
+CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tree.dir/BinaryTreeTraverseMain.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.s /c D:\Github\DataStructure\Tree\BinaryTreeTraverseMain.cpp
+<<
+
 # Object files for target Tree
 Tree_OBJECTS = \
-"CMakeFiles\Tree.dir\BinaryTree.cpp.obj"
+"CMakeFiles\Tree.dir\BinaryTree.cpp.obj" \
+"CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj"
 
 # External object files for target Tree
 Tree_EXTERNAL_OBJECTS =
 
 Tree.exe: CMakeFiles\Tree.dir\BinaryTree.cpp.obj
+Tree.exe: CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj
 Tree.exe: CMakeFiles\Tree.dir\build.make
 Tree.exe: CMakeFiles\Tree.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Tree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Tree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Tree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Tree.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Tree.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Tree.dir\objects1.rsp @<<
  /out:Tree.exe /implib:Tree.lib /pdb:D:\Github\DataStructure\Tree\cmake-build-debug\Tree.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

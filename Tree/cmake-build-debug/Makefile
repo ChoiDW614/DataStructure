@@ -153,6 +153,33 @@ BinaryTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tree.dir\BinaryTree.cpp.s
 .PHONY : BinaryTree.cpp.s
 
+BinaryTreeTraverseMain.obj: BinaryTreeTraverseMain.cpp.obj
+
+.PHONY : BinaryTreeTraverseMain.obj
+
+# target to build an object file
+BinaryTreeTraverseMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.obj
+.PHONY : BinaryTreeTraverseMain.cpp.obj
+
+BinaryTreeTraverseMain.i: BinaryTreeTraverseMain.cpp.i
+
+.PHONY : BinaryTreeTraverseMain.i
+
+# target to preprocess a source file
+BinaryTreeTraverseMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.i
+.PHONY : BinaryTreeTraverseMain.cpp.i
+
+BinaryTreeTraverseMain.s: BinaryTreeTraverseMain.cpp.s
+
+.PHONY : BinaryTreeTraverseMain.s
+
+# target to generate assembly for a file
+BinaryTreeTraverseMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Tree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Tree.dir\BinaryTreeTraverseMain.cpp.s
+.PHONY : BinaryTreeTraverseMain.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +192,9 @@ help:
 	@echo ... BinaryTree.obj
 	@echo ... BinaryTree.i
 	@echo ... BinaryTree.s
+	@echo ... BinaryTreeTraverseMain.obj
+	@echo ... BinaryTreeTraverseMain.i
+	@echo ... BinaryTreeTraverseMain.s
 .PHONY : help
 
 

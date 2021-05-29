@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Tree.dir/BinaryTree.cpp.obj"
+  "CMakeFiles/Tree.dir/BinaryTreeTraverseMain.cpp.obj"
   "Tree.exe"
   "Tree.exe.manifest"
   "Tree.lib"

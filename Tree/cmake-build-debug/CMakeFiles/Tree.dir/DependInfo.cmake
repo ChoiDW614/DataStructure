@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "D:/Github/DataStructure/Tree/BinaryTree.cpp" "D:/Github/DataStructure/Tree/cmake-build-debug/CMakeFiles/Tree.dir/BinaryTree.cpp.obj"
+  "D:/Github/DataStructure/Tree/BinaryTreeTraverseMain.cpp" "D:/Github/DataStructure/Tree/cmake-build-debug/CMakeFiles/Tree.dir/BinaryTreeTraverseMain.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

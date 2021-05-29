@@ -21,4 +21,12 @@ BTreeNode * GetRightSubTree(BTreeNode * bt);
 void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub);
 void MakeRightSubTree(BTreeNode * main, BTreeNode * sub);
 
+typedef void (*VisitFuncPtr)(BTData data);
+
+void PreOrderTraverse(BTreeNode * bt, VisitFuncPtr action);
+void InOrderTraverse(BTreeNode * bt, VisitFuncPtr action);
+void PostOrderTraverse(BTreeNode * bt, VisitFuncPtr action);
+
+void DeleteTree(BTreeNode * bt);
+
 #endif //__BINARY_TREE_H__

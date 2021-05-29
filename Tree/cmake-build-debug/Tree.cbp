@@ -90,6 +90,9 @@
 		<Unit filename="D:/Github/DataStructure/Tree/BinaryTree.h">
 			<Option target="Tree"/>
 		</Unit>
+		<Unit filename="D:/Github/DataStructure/Tree/BinaryTreeTraverseMain.cpp">
+			<Option target="Tree"/>
+		</Unit>
 		<Unit filename="D:/Github/DataStructure/Tree/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

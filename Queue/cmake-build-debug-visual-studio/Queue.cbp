@@ -84,7 +84,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Github/DataStructure/Queue/main.cpp">
+		<Unit filename="D:/Github/DataStructure/Queue/CircularQueue.cpp">
+			<Option target="Queue"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/Queue/CircularQueue.h">
+			<Option target="Queue"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/Queue/CircularQueueMain.cpp">
+			<Option target="Queue"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/Queue/HamburgerSim.cpp">
 			<Option target="Queue"/>
 		</Unit>
 		<Unit filename="D:/Github/DataStructure/Queue/CMakeLists.txt">

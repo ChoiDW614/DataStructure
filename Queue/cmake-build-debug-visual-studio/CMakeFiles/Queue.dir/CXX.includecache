@@ -6,5 +6,29 @@
 
 #IncludeRegexTransform: 
 
-D:/Github/DataStructure/Queue/main.cpp
+D:/Github/DataStructure/Queue/CircularQueue.cpp
+iostream
+-
+cstdlib
+-
+CircularQueue.h
+D:/Github/DataStructure/Queue/CircularQueue.h
+
+D:/Github/DataStructure/Queue/CircularQueue.h
+
+D:/Github/DataStructure/Queue/CircularQueueMain.cpp
+iostream
+-
+CircularQueue.h
+D:/Github/DataStructure/Queue/CircularQueue.h
+
+D:/Github/DataStructure/Queue/HamburgerSim.cpp
+iostream
+-
+ctime
+-
+cstdlib
+-
+CircularQueue.h
+D:/Github/DataStructure/Queue/CircularQueue.h
 

@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Queue.dir/main.cpp.obj"
+  "CMakeFiles/Queue.dir/CircularQueue.cpp.obj"
+  "CMakeFiles/Queue.dir/CircularQueueMain.cpp.obj"
+  "CMakeFiles/Queue.dir/HamburgerSim.cpp.obj"
   "Queue.exe"
   "Queue.exe.manifest"
   "Queue.lib"

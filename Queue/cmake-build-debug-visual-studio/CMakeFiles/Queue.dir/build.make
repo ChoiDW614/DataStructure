@@ -60,36 +60,78 @@ include CMakeFiles\Queue.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\Queue.dir\flags.make
 
-CMakeFiles\Queue.dir\main.cpp.obj: CMakeFiles\Queue.dir\flags.make
-CMakeFiles\Queue.dir\main.cpp.obj: ..\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/main.cpp.obj"
+CMakeFiles\Queue.dir\CircularQueueMain.cpp.obj: CMakeFiles\Queue.dir\flags.make
+CMakeFiles\Queue.dir\CircularQueueMain.cpp.obj: ..\CircularQueueMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Queue.dir/CircularQueueMain.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Queue.dir\main.cpp.obj /FdCMakeFiles\Queue.dir\ /FS -c D:\Github\DataStructure\Queue\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Queue.dir\CircularQueueMain.cpp.obj /FdCMakeFiles\Queue.dir\ /FS -c D:\Github\DataStructure\Queue\CircularQueueMain.cpp
 <<
 
-CMakeFiles\Queue.dir\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue.dir/main.cpp.i"
-	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Queue.dir\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Queue\main.cpp
+CMakeFiles\Queue.dir\CircularQueueMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue.dir/CircularQueueMain.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Queue.dir\CircularQueueMain.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Queue\CircularQueueMain.cpp
 <<
 
-CMakeFiles\Queue.dir\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/main.cpp.s"
+CMakeFiles\Queue.dir\CircularQueueMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/CircularQueueMain.cpp.s"
 	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Queue.dir\main.cpp.s /c D:\Github\DataStructure\Queue\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Queue.dir\CircularQueueMain.cpp.s /c D:\Github\DataStructure\Queue\CircularQueueMain.cpp
+<<
+
+CMakeFiles\Queue.dir\CircularQueue.cpp.obj: CMakeFiles\Queue.dir\flags.make
+CMakeFiles\Queue.dir\CircularQueue.cpp.obj: ..\CircularQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Queue.dir/CircularQueue.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Queue.dir\CircularQueue.cpp.obj /FdCMakeFiles\Queue.dir\ /FS -c D:\Github\DataStructure\Queue\CircularQueue.cpp
+<<
+
+CMakeFiles\Queue.dir\CircularQueue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue.dir/CircularQueue.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Queue.dir\CircularQueue.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Queue\CircularQueue.cpp
+<<
+
+CMakeFiles\Queue.dir\CircularQueue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/CircularQueue.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Queue.dir\CircularQueue.cpp.s /c D:\Github\DataStructure\Queue\CircularQueue.cpp
+<<
+
+CMakeFiles\Queue.dir\HamburgerSim.cpp.obj: CMakeFiles\Queue.dir\flags.make
+CMakeFiles\Queue.dir\HamburgerSim.cpp.obj: ..\HamburgerSim.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Queue.dir/HamburgerSim.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\Queue.dir\HamburgerSim.cpp.obj /FdCMakeFiles\Queue.dir\ /FS -c D:\Github\DataStructure\Queue\HamburgerSim.cpp
+<<
+
+CMakeFiles\Queue.dir\HamburgerSim.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Queue.dir/HamburgerSim.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\Queue.dir\HamburgerSim.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\Queue\HamburgerSim.cpp
+<<
+
+CMakeFiles\Queue.dir\HamburgerSim.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Queue.dir/HamburgerSim.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\Queue.dir\HamburgerSim.cpp.s /c D:\Github\DataStructure\Queue\HamburgerSim.cpp
 <<
 
 # Object files for target Queue
 Queue_OBJECTS = \
-"CMakeFiles\Queue.dir\main.cpp.obj"
+"CMakeFiles\Queue.dir\CircularQueueMain.cpp.obj" \
+"CMakeFiles\Queue.dir\CircularQueue.cpp.obj" \
+"CMakeFiles\Queue.dir\HamburgerSim.cpp.obj"
 
 # External object files for target Queue
 Queue_EXTERNAL_OBJECTS =
 
-Queue.exe: CMakeFiles\Queue.dir\main.cpp.obj
+Queue.exe: CMakeFiles\Queue.dir\CircularQueueMain.cpp.obj
+Queue.exe: CMakeFiles\Queue.dir\CircularQueue.cpp.obj
+Queue.exe: CMakeFiles\Queue.dir\HamburgerSim.cpp.obj
 Queue.exe: CMakeFiles\Queue.dir\build.make
 Queue.exe: CMakeFiles\Queue.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Queue.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Queue.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\Queue.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\Queue.dir\objects1.rsp @<<
  /out:Queue.exe /implib:Queue.lib /pdb:D:\Github\DataStructure\Queue\cmake-build-debug-visual-studio\Queue.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

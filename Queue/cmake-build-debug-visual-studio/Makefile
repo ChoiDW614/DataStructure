@@ -126,32 +126,86 @@ Queue\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\build
 .PHONY : Queue\fast
 
-main.obj: main.cpp.obj
+CircularQueue.obj: CircularQueue.cpp.obj
 
-.PHONY : main.obj
+.PHONY : CircularQueue.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\main.cpp.obj
-.PHONY : main.cpp.obj
+CircularQueue.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueue.cpp.obj
+.PHONY : CircularQueue.cpp.obj
 
-main.i: main.cpp.i
+CircularQueue.i: CircularQueue.cpp.i
 
-.PHONY : main.i
+.PHONY : CircularQueue.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\main.cpp.i
-.PHONY : main.cpp.i
+CircularQueue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueue.cpp.i
+.PHONY : CircularQueue.cpp.i
 
-main.s: main.cpp.s
+CircularQueue.s: CircularQueue.cpp.s
 
-.PHONY : main.s
+.PHONY : CircularQueue.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\main.cpp.s
-.PHONY : main.cpp.s
+CircularQueue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueue.cpp.s
+.PHONY : CircularQueue.cpp.s
+
+CircularQueueMain.obj: CircularQueueMain.cpp.obj
+
+.PHONY : CircularQueueMain.obj
+
+# target to build an object file
+CircularQueueMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueueMain.cpp.obj
+.PHONY : CircularQueueMain.cpp.obj
+
+CircularQueueMain.i: CircularQueueMain.cpp.i
+
+.PHONY : CircularQueueMain.i
+
+# target to preprocess a source file
+CircularQueueMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueueMain.cpp.i
+.PHONY : CircularQueueMain.cpp.i
+
+CircularQueueMain.s: CircularQueueMain.cpp.s
+
+.PHONY : CircularQueueMain.s
+
+# target to generate assembly for a file
+CircularQueueMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\CircularQueueMain.cpp.s
+.PHONY : CircularQueueMain.cpp.s
+
+HamburgerSim.obj: HamburgerSim.cpp.obj
+
+.PHONY : HamburgerSim.obj
+
+# target to build an object file
+HamburgerSim.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\HamburgerSim.cpp.obj
+.PHONY : HamburgerSim.cpp.obj
+
+HamburgerSim.i: HamburgerSim.cpp.i
+
+.PHONY : HamburgerSim.i
+
+# target to preprocess a source file
+HamburgerSim.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\HamburgerSim.cpp.i
+.PHONY : HamburgerSim.cpp.i
+
+HamburgerSim.s: HamburgerSim.cpp.s
+
+.PHONY : HamburgerSim.s
+
+# target to generate assembly for a file
+HamburgerSim.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Queue.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Queue.dir\HamburgerSim.cpp.s
+.PHONY : HamburgerSim.cpp.s
 
 # Help Target
 help:
@@ -162,9 +216,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Queue
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... CircularQueue.obj
+	@echo ... CircularQueue.i
+	@echo ... CircularQueue.s
+	@echo ... CircularQueueMain.obj
+	@echo ... CircularQueueMain.i
+	@echo ... CircularQueueMain.s
+	@echo ... HamburgerSim.obj
+	@echo ... HamburgerSim.i
+	@echo ... HamburgerSim.s
 .PHONY : help
 
 

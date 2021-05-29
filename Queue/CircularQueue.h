@@ -4,7 +4,7 @@
 constexpr int TRUE =        1;
 constexpr int FALSE =       0;
 
-constexpr int QUE_LEN =     100;
+constexpr int QUE_LEN =     250;
 typedef int Data;
 
 typedef class cQueue

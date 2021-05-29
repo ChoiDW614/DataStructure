@@ -1,4 +1,4 @@
-#include <iostream>
+# include <iostream>
 #include <cstdlib>
 #include "CircularQueue.h"
 
@@ -56,5 +56,5 @@ Data QPeek(Queue * pq)
         exit(-1);
     }
 
-    return pq->queArr[NextPosIdx(pq->front);
+    return pq->queArr[NextPosIdx(pq->front)];
 }

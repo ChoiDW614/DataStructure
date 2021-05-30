@@ -84,7 +84,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="D:/Github/DataStructure/ExpressionTree/BinaryTree.cpp">
+			<Option target="ExpressionTree"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/ExpressionTree/BinaryTree.h">
+			<Option target="ExpressionTree"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/ExpressionTree/ExpressionTree.cpp">
+			<Option target="ExpressionTree"/>
+		</Unit>
 		<Unit filename="D:/Github/DataStructure/ExpressionTree/ExpressionTree.h">
+			<Option target="ExpressionTree"/>
+		</Unit>
+		<Unit filename="D:/Github/DataStructure/ExpressionTree/ExpressionTreeMain.cpp">
 			<Option target="ExpressionTree"/>
 		</Unit>
 		<Unit filename="D:/Github/DataStructure/ExpressionTree/ListBaseStack.cpp">

@@ -4,7 +4,7 @@
 constexpr int TRUE  =   1;
 constexpr int FALSE =   0;
 
-typedef int Data;
+typedef char Data;
 
 typedef class node
 {

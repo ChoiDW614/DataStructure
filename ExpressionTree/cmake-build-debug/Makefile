@@ -126,6 +126,87 @@ ExpressionTree\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\build
 .PHONY : ExpressionTree\fast
 
+BinaryTree.obj: BinaryTree.cpp.obj
+
+.PHONY : BinaryTree.obj
+
+# target to build an object file
+BinaryTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj
+.PHONY : BinaryTree.cpp.obj
+
+BinaryTree.i: BinaryTree.cpp.i
+
+.PHONY : BinaryTree.i
+
+# target to preprocess a source file
+BinaryTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.i
+.PHONY : BinaryTree.cpp.i
+
+BinaryTree.s: BinaryTree.cpp.s
+
+.PHONY : BinaryTree.s
+
+# target to generate assembly for a file
+BinaryTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.s
+.PHONY : BinaryTree.cpp.s
+
+ExpressionTree.obj: ExpressionTree.cpp.obj
+
+.PHONY : ExpressionTree.obj
+
+# target to build an object file
+ExpressionTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj
+.PHONY : ExpressionTree.cpp.obj
+
+ExpressionTree.i: ExpressionTree.cpp.i
+
+.PHONY : ExpressionTree.i
+
+# target to preprocess a source file
+ExpressionTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.i
+.PHONY : ExpressionTree.cpp.i
+
+ExpressionTree.s: ExpressionTree.cpp.s
+
+.PHONY : ExpressionTree.s
+
+# target to generate assembly for a file
+ExpressionTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.s
+.PHONY : ExpressionTree.cpp.s
+
+ExpressionTreeMain.obj: ExpressionTreeMain.cpp.obj
+
+.PHONY : ExpressionTreeMain.obj
+
+# target to build an object file
+ExpressionTreeMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj
+.PHONY : ExpressionTreeMain.cpp.obj
+
+ExpressionTreeMain.i: ExpressionTreeMain.cpp.i
+
+.PHONY : ExpressionTreeMain.i
+
+# target to preprocess a source file
+ExpressionTreeMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.i
+.PHONY : ExpressionTreeMain.cpp.i
+
+ExpressionTreeMain.s: ExpressionTreeMain.cpp.s
+
+.PHONY : ExpressionTreeMain.s
+
+# target to generate assembly for a file
+ExpressionTreeMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\ExpressionTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.s
+.PHONY : ExpressionTreeMain.cpp.s
+
 ListBaseStack.obj: ListBaseStack.cpp.obj
 
 .PHONY : ListBaseStack.obj
@@ -162,6 +243,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... ExpressionTree
+	@echo ... BinaryTree.obj
+	@echo ... BinaryTree.i
+	@echo ... BinaryTree.s
+	@echo ... ExpressionTree.obj
+	@echo ... ExpressionTree.i
+	@echo ... ExpressionTree.s
+	@echo ... ExpressionTreeMain.obj
+	@echo ... ExpressionTreeMain.i
+	@echo ... ExpressionTreeMain.s
 	@echo ... ListBaseStack.obj
 	@echo ... ListBaseStack.i
 	@echo ... ListBaseStack.s

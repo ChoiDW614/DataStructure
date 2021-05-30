@@ -79,17 +79,80 @@ CMakeFiles\ExpressionTree.dir\ListBaseStack.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ExpressionTree.dir\ListBaseStack.cpp.s /c D:\Github\DataStructure\ExpressionTree\ListBaseStack.cpp
 <<
 
+CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj: CMakeFiles\ExpressionTree.dir\flags.make
+CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj: ..\BinaryTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\ExpressionTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/ExpressionTree.dir/BinaryTree.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj /FdCMakeFiles\ExpressionTree.dir\ /FS -c D:\Github\DataStructure\ExpressionTree\BinaryTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExpressionTree.dir/BinaryTree.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\ExpressionTree\BinaryTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExpressionTree.dir/BinaryTree.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ExpressionTree.dir\BinaryTree.cpp.s /c D:\Github\DataStructure\ExpressionTree\BinaryTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj: CMakeFiles\ExpressionTree.dir\flags.make
+CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj: ..\ExpressionTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\ExpressionTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/ExpressionTree.dir/ExpressionTree.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj /FdCMakeFiles\ExpressionTree.dir\ /FS -c D:\Github\DataStructure\ExpressionTree\ExpressionTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExpressionTree.dir/ExpressionTree.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\ExpressionTree\ExpressionTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExpressionTree.dir/ExpressionTree.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.s /c D:\Github\DataStructure\ExpressionTree\ExpressionTree.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj: CMakeFiles\ExpressionTree.dir\flags.make
+CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj: ..\ExpressionTreeMain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Github\DataStructure\ExpressionTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/ExpressionTree.dir/ExpressionTreeMain.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj /FdCMakeFiles\ExpressionTree.dir\ /FS -c D:\Github\DataStructure\ExpressionTree\ExpressionTreeMain.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ExpressionTree.dir/ExpressionTreeMain.cpp.i"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe > CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Github\DataStructure\ExpressionTree\ExpressionTreeMain.cpp
+<<
+
+CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ExpressionTree.dir/ExpressionTreeMain.cpp.s"
+	C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.s /c D:\Github\DataStructure\ExpressionTree\ExpressionTreeMain.cpp
+<<
+
 # Object files for target ExpressionTree
 ExpressionTree_OBJECTS = \
-"CMakeFiles\ExpressionTree.dir\ListBaseStack.cpp.obj"
+"CMakeFiles\ExpressionTree.dir\ListBaseStack.cpp.obj" \
+"CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj" \
+"CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj" \
+"CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj"
 
 # External object files for target ExpressionTree
 ExpressionTree_EXTERNAL_OBJECTS =
 
 ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\ListBaseStack.cpp.obj
+ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\BinaryTree.cpp.obj
+ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\ExpressionTree.cpp.obj
+ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\ExpressionTreeMain.cpp.obj
 ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\build.make
 ExpressionTree.exe: CMakeFiles\ExpressionTree.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\ExpressionTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ExpressionTree.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\Github\DataStructure\ExpressionTree\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ExpressionTree.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\ExpressionTree.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2017\COMMUN~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\ExpressionTree.dir\objects1.rsp @<<
  /out:ExpressionTree.exe /implib:ExpressionTree.lib /pdb:D:\Github\DataStructure\ExpressionTree\cmake-build-debug\ExpressionTree.pdb /version:0.0 /machine:X86 /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<

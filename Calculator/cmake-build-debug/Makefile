@@ -153,6 +153,33 @@ InfixToPostfix\InfixToPostfix.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.s
 .PHONY : InfixToPostfix\InfixToPostfix.cpp.s
 
+InfixToPostfix\InfixToPostfixMain.obj: InfixToPostfix\InfixToPostfixMain.cpp.obj
+
+.PHONY : InfixToPostfix\InfixToPostfixMain.obj
+
+# target to build an object file
+InfixToPostfix\InfixToPostfixMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfixMain.cpp.obj
+.PHONY : InfixToPostfix\InfixToPostfixMain.cpp.obj
+
+InfixToPostfix\InfixToPostfixMain.i: InfixToPostfix\InfixToPostfixMain.cpp.i
+
+.PHONY : InfixToPostfix\InfixToPostfixMain.i
+
+# target to preprocess a source file
+InfixToPostfix\InfixToPostfixMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfixMain.cpp.i
+.PHONY : InfixToPostfix\InfixToPostfixMain.cpp.i
+
+InfixToPostfix\InfixToPostfixMain.s: InfixToPostfix\InfixToPostfixMain.cpp.s
+
+.PHONY : InfixToPostfix\InfixToPostfixMain.s
+
+# target to generate assembly for a file
+InfixToPostfix\InfixToPostfixMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Calculator.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfixMain.cpp.s
+.PHONY : InfixToPostfix\InfixToPostfixMain.cpp.s
+
 ListBaseStack\ListBaseStack.obj: ListBaseStack\ListBaseStack.cpp.obj
 
 .PHONY : ListBaseStack\ListBaseStack.obj
@@ -192,6 +219,9 @@ help:
 	@echo ... InfixToPostfix/InfixToPostfix.obj
 	@echo ... InfixToPostfix/InfixToPostfix.i
 	@echo ... InfixToPostfix/InfixToPostfix.s
+	@echo ... InfixToPostfix/InfixToPostfixMain.obj
+	@echo ... InfixToPostfix/InfixToPostfixMain.i
+	@echo ... InfixToPostfix/InfixToPostfixMain.s
 	@echo ... ListBaseStack/ListBaseStack.obj
 	@echo ... ListBaseStack/ListBaseStack.i
 	@echo ... ListBaseStack/ListBaseStack.s

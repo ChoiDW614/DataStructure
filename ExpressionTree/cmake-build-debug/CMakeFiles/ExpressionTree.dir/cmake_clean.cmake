@@ -1,4 +1,7 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/ExpressionTree.dir/BinaryTree.cpp.obj"
+  "CMakeFiles/ExpressionTree.dir/ExpressionTree.cpp.obj"
+  "CMakeFiles/ExpressionTree.dir/ExpressionTreeMain.cpp.obj"
   "CMakeFiles/ExpressionTree.dir/ListBaseStack.cpp.obj"
   "ExpressionTree.exe"
   "ExpressionTree.exe.manifest"

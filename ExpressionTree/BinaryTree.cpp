@@ -30,7 +30,7 @@ BTreeNode * GetRightSubTree(BTreeNode * bt)
     return bt->right;
 }
 
-void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)
+void MakeLeftSubTree(BTreeNode * main, bTreeNode * sub)
 {
     if(main->left != nullptr)
     {
@@ -40,7 +40,7 @@ void MakeLeftSubTree(BTreeNode * main, BTreeNode * sub)
     main->left = sub;
 }
 
-void MakeRightSubTree(BTreeNode * main, BTreeNode * sub)
+void MakeRightSubTree(BTreeNode * main, bTreeNode * sub)
 {
     if(main->right != nullptr)
     {
@@ -64,10 +64,17 @@ void InOrderTraverse(BTreeNode * bt, VisitFuncPtr action)
 {
     if(bt == nullptr)
         return;
-
+    if(!(bt->left== nullptr && bt->right == nullptr))
+    {
+        std::cout << "( ";
+    }
     InOrderTraverse(bt->left, action);
     action(bt->data);
     InOrderTraverse(bt->right, action);
+    if(!(bt->left== nullptr && bt->right == nullptr))
+    {
+        std::cout << " )";
+    }
 }
 
 void PostOrderTraverse(BTreeNode * bt, VisitFuncPtr action)

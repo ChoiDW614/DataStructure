@@ -41,6 +41,7 @@ Data SPop(Stack * pStack)
 
     pStack->head = pStack->head->next;
     delete rNode;
+
     return rdata;
 }
 

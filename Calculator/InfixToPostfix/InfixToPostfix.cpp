@@ -36,16 +36,17 @@ int WhoPrecOp(char Op1, char Op2)
 void ConvToRPNExp(char exp[])
 {
     Stack stack;
-    signed int explen = strlen(exp);
-    char *convExp = new char(explen);
+    int expLen = (int)strlen(exp);
+    char * convExp = new char[expLen+1];
 
-    int i, idx = 0;
+    int i = 0;
+    int idx = 0;
     char tok, popOp;
 
-    memset(convExp, 0, sizeof(char) * explen + 1);
+    memset(convExp, 0, sizeof(char) * (expLen + 1));
     StackInit(&stack);
 
-    for (i = 0; i < explen; i++)
+    for (i = 0; i < expLen; i++)
     {
         tok = exp[i];
 
@@ -69,10 +70,12 @@ void ConvToRPNExp(char exp[])
                         convExp[idx++] = popOp;
                     }
                     break;
+
                 case '+': case '-':
                 case '*': case '/':
                     while(!SIsEmpty(&stack) && WhoPrecOp(SPeek(&stack), tok) >= 0)
                         convExp[idx++] = SPop(&stack);
+
                     SPush(&stack, tok);
                     break;
                 default: ;

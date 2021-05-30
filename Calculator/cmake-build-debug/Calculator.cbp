@@ -90,6 +90,9 @@
 		<Unit filename="D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfix.h">
 			<Option target="Calculator"/>
 		</Unit>
+		<Unit filename="D:/Github/DataStructure/Calculator/InfixToPostfix/InfixToPostfixMain.cpp">
+			<Option target="Calculator"/>
+		</Unit>
 		<Unit filename="D:/Github/DataStructure/Calculator/ListBaseStack/ListBaseStack.cpp">
 			<Option target="Calculator"/>
 		</Unit>

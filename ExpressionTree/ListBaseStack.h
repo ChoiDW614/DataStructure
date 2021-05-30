@@ -1,10 +1,12 @@
 #ifndef __LIST_BASE_STACK_H__
 #define __LIST_BASE_STACK_H__
 
+#include "BinaryTree.h"
+
 constexpr int TRUE = 1;
 constexpr int FALSE = 0;
 
-typedef int Data;
+typedef BTreeNode * Data;
 
 typedef class node
 {

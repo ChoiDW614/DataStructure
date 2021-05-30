@@ -5,6 +5,9 @@ CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: ..\InfixToPostf
 CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: ..\InfixToPostfix\InfixToPostfix.h
 CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfix.cpp.obj: ..\ListBaseStack\ListBaseStack.h
 
+CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfixMain.cpp.obj: ..\InfixToPostfix\InfixToPostfix.h
+CMakeFiles\Calculator.dir\InfixToPostfix\InfixToPostfixMain.cpp.obj: ..\InfixToPostfix\InfixToPostfixMain.cpp
+
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: ..\ListBaseStack\ListBaseStack.cpp
 CMakeFiles\Calculator.dir\ListBaseStack\ListBaseStack.cpp.obj: ..\ListBaseStack\ListBaseStack.h
 

@@ -6,11 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/Github/DataStructure/ExpressionTree/BinaryTree.cpp
-iostream
+D:/Github/DataStructure/ExpressionTree/BinaryTree.h
+
+D:/Github/DataStructure/ExpressionTree/ExpressionTree.cpp
+cstring
 -
+cctype
+-
+cstdio
+-
+ExpressionTree.h
+D:/Github/DataStructure/ExpressionTree/ExpressionTree.h
+ListBaseStack.h
+D:/Github/DataStructure/ExpressionTree/ListBaseStack.h
+
+D:/Github/DataStructure/ExpressionTree/ExpressionTree.h
 BinaryTree.h
 D:/Github/DataStructure/ExpressionTree/BinaryTree.h
 
+D:/Github/DataStructure/ExpressionTree/ListBaseStack.h
+BinaryTree.h
 D:/Github/DataStructure/ExpressionTree/BinaryTree.h
 

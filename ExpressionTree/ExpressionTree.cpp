@@ -20,7 +20,7 @@ BTreeNode * MakeExpTree(char exp[])
 
         if(isdigit(exp[i]))
         {
-            SetData(pNode, (int)exp[i]);
+            SetData(pNode, exp[i]-'0');
         }
         else
         {
@@ -35,6 +35,31 @@ BTreeNode * MakeExpTree(char exp[])
     return SPop(&stack);
 }
 
+int EvaluateExpTree(BTreeNode * bt)
+{
+    int op1, op2;
+
+    if(GetLeftSubTree(bt) == nullptr && GetRightSubTree(bt) == nullptr)
+        return GetData(bt);
+
+    op1 = EvaluateExpTree(GetLeftSubTree(bt));
+    op2 = EvaluateExpTree(GetRightSubTree(bt));
+
+    switch(GetData(bt))
+    {
+        case '+':
+            return op1 + op2;
+        case '-':
+            return op1 - op2;
+        case '*':
+            return op1 * op2;
+        case '/':
+            return op1 / op2;
+    }
+
+    return 0;
+}
+
 void ShowNodeData(int data)
 {
     if (0 <= data && data <= 9)
@@ -42,7 +67,6 @@ void ShowNodeData(int data)
     else
         printf("%c ", data);
 }
-
 
 void ShowPrefixTypeExp(BTreeNode * bt)
 {

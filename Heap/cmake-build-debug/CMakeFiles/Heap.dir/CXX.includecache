@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/DataStructure/Heap/SimpleHeap/SimpleHeap.cpp
+iostream
+-
+SimpleHeap.h
+D:/Github/DataStructure/Heap/SimpleHeap/SimpleHeap.h
+
+D:/Github/DataStructure/Heap/SimpleHeap/SimpleHeap.h
+

@@ -1,9 +1,10 @@
 #include <iostream>
+#include <cstdio>
 #include "ExpressionTree.h"
 
 int main()
 {
-    char exp[] = "327*+";
+    char exp[] = "12+7*";
     BTreeNode * eTree = MakeExpTree(exp);
 
     std::cout << "Formula for prefix: ";
@@ -17,6 +18,9 @@ int main()
     std::cout << "Formula for postfix: ";
     ShowPostfixTypeExp(eTree);
     std::cout << std::endl;
+
+    std::cout << "Result of operation: ";
+    printf("%d ", EvaluateExpTree(eTree));
 
     return 0;
 }

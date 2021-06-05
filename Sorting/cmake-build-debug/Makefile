@@ -153,6 +153,60 @@ BubbleSort.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\BubbleSort.cpp.s
 .PHONY : BubbleSort.cpp.s
 
+InsertionSort.obj: InsertionSort.cpp.obj
+
+.PHONY : InsertionSort.obj
+
+# target to build an object file
+InsertionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\InsertionSort.cpp.obj
+.PHONY : InsertionSort.cpp.obj
+
+InsertionSort.i: InsertionSort.cpp.i
+
+.PHONY : InsertionSort.i
+
+# target to preprocess a source file
+InsertionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\InsertionSort.cpp.i
+.PHONY : InsertionSort.cpp.i
+
+InsertionSort.s: InsertionSort.cpp.s
+
+.PHONY : InsertionSort.s
+
+# target to generate assembly for a file
+InsertionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\InsertionSort.cpp.s
+.PHONY : InsertionSort.cpp.s
+
+SelectionSort.obj: SelectionSort.cpp.obj
+
+.PHONY : SelectionSort.obj
+
+# target to build an object file
+SelectionSort.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\SelectionSort.cpp.obj
+.PHONY : SelectionSort.cpp.obj
+
+SelectionSort.i: SelectionSort.cpp.i
+
+.PHONY : SelectionSort.i
+
+# target to preprocess a source file
+SelectionSort.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\SelectionSort.cpp.i
+.PHONY : SelectionSort.cpp.i
+
+SelectionSort.s: SelectionSort.cpp.s
+
+.PHONY : SelectionSort.s
+
+# target to generate assembly for a file
+SelectionSort.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Sorting.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\Sorting.dir\SelectionSort.cpp.s
+.PHONY : SelectionSort.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -165,6 +219,12 @@ help:
 	@echo ... BubbleSort.obj
 	@echo ... BubbleSort.i
 	@echo ... BubbleSort.s
+	@echo ... InsertionSort.obj
+	@echo ... InsertionSort.i
+	@echo ... InsertionSort.s
+	@echo ... SelectionSort.obj
+	@echo ... SelectionSort.i
+	@echo ... SelectionSort.s
 .PHONY : help
 
 

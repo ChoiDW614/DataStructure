@@ -1,0 +1,74 @@
+binaryTree ADT
+
+▶ BTreeNode * MakeBTreeNode(void)
+
+▶ BTData GetData(node * bt)
+
+▶ void SetData(node * bt, BTdata data)
+
+▶ node * GetLeftSubTree(node * bt)
+
+▶ node * GetRightSubTree(node * bt)
+
+▶ void MakeLeftSubTree(node * main,  node* sub)
+
+▶ void MakeRightSubTree(node * main,  node* sub)
+
+▶ void PreOrderTraverse(node * bt, visitFun)
+
+▶ void InOrderTraverse(node * bt, visitFun)
+
+▶ void PostOrderTraverse(node * bt, visitFun)
+
+▶ void DeleteTree(node * bt)
+
+
+
+ExpressionTree ADT
+
+▶ BTreeNode * MakeExpTree(char exp[])
+
+▶ int EvaluateExpTree(BTreeNode * bt)
+
+▶ void ShowPrefixTypeExp(BTreeNode * bt)
+
+▶ void ShowInfixTypeExp(BTreeNode * bt)
+
+▶ void ShowPostfixTypeExp(BTreeNode * bt)
+
+
+
+Heap ADT
+
+▶ void HeapInit(Heap * ph)
+
+▶ int HIsEmpty(Heap * ph)
+
+▶ void HInsert(Heap * ph, HData data, Priority pr)
+
+▶ HData HDelete(Heap * ph)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

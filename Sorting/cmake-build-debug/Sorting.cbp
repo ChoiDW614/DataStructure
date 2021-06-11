@@ -84,13 +84,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Github/DataStructure/Sorting/BubbleSort.cpp">
-			<Option target="Sorting"/>
-		</Unit>
-		<Unit filename="D:/Github/DataStructure/Sorting/InsertionSort.cpp">
-			<Option target="Sorting"/>
-		</Unit>
-		<Unit filename="D:/Github/DataStructure/Sorting/SelectionSort.cpp">
+		<Unit filename="D:/Github/DataStructure/Sorting/QuickSort.cpp">
 			<Option target="Sorting"/>
 		</Unit>
 		<Unit filename="D:/Github/DataStructure/Sorting/CMakeLists.txt">

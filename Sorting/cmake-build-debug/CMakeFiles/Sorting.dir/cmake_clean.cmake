@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Sorting.dir/BubbleSort.cpp.obj"
-  "CMakeFiles/Sorting.dir/InsertionSort.cpp.obj"
-  "CMakeFiles/Sorting.dir/SelectionSort.cpp.obj"
+  "CMakeFiles/Sorting.dir/QuickSort.cpp.obj"
   "Sorting.exe"
   "Sorting.exe.manifest"
   "Sorting.lib"

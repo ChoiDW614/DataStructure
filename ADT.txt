@@ -50,7 +50,13 @@ Heap ADT
 
 
 
+QuickSort ADT
 
+▶ void QuickSort(int arr[], int left, int right)
+
+▶ int Partition(int arr[], int left, int right)
+
+▶ void swap(int arr[], int idx1, int idx2)
 
 
 

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/DataStructure/RadixSort/ListBaseQueue.cpp
+iostream
+-
+cstdlib
+-
+ListBaseQueue.h
+D:/Github/DataStructure/RadixSort/ListBaseQueue.h
+
+D:/Github/DataStructure/RadixSort/ListBaseQueue.h
+
+D:/Github/DataStructure/RadixSort/RadixSort.cpp
+iostream
+-
+ListBaseQueue.h
+D:/Github/DataStructure/RadixSort/ListBaseQueue.h
+

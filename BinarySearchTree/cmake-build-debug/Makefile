@@ -153,6 +153,33 @@ BinarySearchTree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BinarySearchTree.dir\BinarySearchTree.cpp.s
 .PHONY : BinarySearchTree.cpp.s
 
+BinarySearchTreeMain.obj: BinarySearchTreeMain.cpp.obj
+
+.PHONY : BinarySearchTreeMain.obj
+
+# target to build an object file
+BinarySearchTreeMain.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BinarySearchTree.dir\BinarySearchTreeMain.cpp.obj
+.PHONY : BinarySearchTreeMain.cpp.obj
+
+BinarySearchTreeMain.i: BinarySearchTreeMain.cpp.i
+
+.PHONY : BinarySearchTreeMain.i
+
+# target to preprocess a source file
+BinarySearchTreeMain.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BinarySearchTree.dir\BinarySearchTreeMain.cpp.i
+.PHONY : BinarySearchTreeMain.cpp.i
+
+BinarySearchTreeMain.s: BinarySearchTreeMain.cpp.s
+
+.PHONY : BinarySearchTreeMain.s
+
+# target to generate assembly for a file
+BinarySearchTreeMain.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\BinarySearchTree.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\BinarySearchTree.dir\BinarySearchTreeMain.cpp.s
+.PHONY : BinarySearchTreeMain.cpp.s
+
 BinaryTree.obj: BinaryTree.cpp.obj
 
 .PHONY : BinaryTree.obj
@@ -192,6 +219,9 @@ help:
 	@echo ... BinarySearchTree.obj
 	@echo ... BinarySearchTree.i
 	@echo ... BinarySearchTree.s
+	@echo ... BinarySearchTreeMain.obj
+	@echo ... BinarySearchTreeMain.i
+	@echo ... BinarySearchTreeMain.s
 	@echo ... BinaryTree.obj
 	@echo ... BinaryTree.i
 	@echo ... BinaryTree.s

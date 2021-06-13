@@ -90,6 +90,9 @@
 		<Unit filename="D:/Github/DataStructure/BinarySearchTree/BinarySearchTree.h">
 			<Option target="BinarySearchTree"/>
 		</Unit>
+		<Unit filename="D:/Github/DataStructure/BinarySearchTree/BinarySearchTreeMain.cpp">
+			<Option target="BinarySearchTree"/>
+		</Unit>
 		<Unit filename="D:/Github/DataStructure/BinarySearchTree/BinaryTree.cpp">
 			<Option target="BinarySearchTree"/>
 		</Unit>

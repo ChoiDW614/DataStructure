@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "BinarySearchTree.lib"
   "BinarySearchTree.pdb"
   "CMakeFiles/BinarySearchTree.dir/BinarySearchTree.cpp.obj"
+  "CMakeFiles/BinarySearchTree.dir/BinarySearchTreeMain.cpp.obj"
   "CMakeFiles/BinarySearchTree.dir/BinaryTree.cpp.obj"
 )
 

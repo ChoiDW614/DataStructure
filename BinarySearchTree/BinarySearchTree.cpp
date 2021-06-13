@@ -1,13 +1,42 @@
 #include <iostream>
 #include "BinarySearchTree.h"
 
-void BSTMakeAndInit(BTreeNode ** pRoot);
+void BSTMakeAndInit(BTreeNode ** pRoot)
+{
+    *pRoot = nullptr;
+}
 
-// Return data stored on node
-BSTData BSTGetNodeData(BTreeNode * bst);
+BSTData BSTGetNodeData(BTreeNode * bst)
+{
+    return GetData(bst);
+}
 
-// Save the data to BST
-void BSTInsert(BTreeNode ** pRoot, BSTData data);
+void BSTInsert(BTreeNode ** pRoot, BSTData data)
+{
+    BTreeNode * pNode = nullptr;    // parent node
+    BTreeNode * cNode = *pRoot;     // current node
+    BTreeNode * nNode = nullptr;    // new node
 
-// Search the data to BST
-BTreeNode * BSTSearch(BTreeNode * bst, BSTData target);
+    // Find position that new node will be added
+    while(cNode != nullptr)
+    {
+        
+
+
+
+
+    }
+
+    // Create a new node to add as a child node of pNode
+
+
+    // Add a new node as a child node of pNode
+
+
+}
+
+BTreeNode * BSTSearch(BTreeNode * bst, BSTData target)
+{
+
+}
+

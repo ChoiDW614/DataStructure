@@ -1,0 +1,3 @@
+D:/Github/DataStructure/AVLTree/cmake-build-debug/CMakeFiles/AVLTree.dir
+D:/Github/DataStructure/AVLTree/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Github/DataStructure/AVLTree/cmake-build-debug/CMakeFiles/rebuild_cache.dir

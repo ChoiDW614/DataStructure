@@ -60,6 +60,22 @@ QuickSort ADT
 
 
 
+AVLRebalance ADT
+
+▶ BTreeNode * RotateLL(BTreeNode * bst)
+
+▶ BTreeNode * RotateRR(BTreeNode * bst)
+
+▶ BTreeNode * RotateLR(BTreeNode * bst)
+
+▶ BTreeNode * RotateRL(BTreeNode * bst)
+
+▶ int GetHeight(BTreeNode * bst)
+
+▶ int GetHeightDiff(BTreeNode * bst)
+
+▷ BTreeNode * Rebalance(BTreeNode ** pRoot)
+
 
 
 

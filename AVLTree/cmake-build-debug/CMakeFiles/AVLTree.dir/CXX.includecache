@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Github/DataStructure/AVLTree/AVLTreeMain.cpp
+iostream
+-
+BinaryTree.h
+D:/Github/DataStructure/AVLTree/BinaryTree.h
+BinarySearchTree.h
+D:/Github/DataStructure/AVLTree/BinarySearchTree.h
+
+D:/Github/DataStructure/AVLTree/BinarySearchTree.h
+BinaryTree.h
+D:/Github/DataStructure/AVLTree/BinaryTree.h
+
+D:/Github/DataStructure/AVLTree/BinaryTree.h
+

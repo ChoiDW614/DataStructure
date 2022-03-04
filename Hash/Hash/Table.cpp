@@ -1,14 +1,14 @@
 #include <iostream>
 #include "Table.h"
 
-void TBLInit(Table* pt, int (*f)(int))
+void TBLInit(Table* pt, HashFunc f)
 {
 	int i;
 
 	for (i = 0; i < MAX_TBL; i++)
 		(pt->tbl[i]).status = EMPTY;
 
-	pt->hf = f;
+	pt->hf = *f;
 }
 
 void TBLInsert(Table* pt, Key k, Value v)

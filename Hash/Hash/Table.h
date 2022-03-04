@@ -10,10 +10,10 @@ typedef int (*HashFunc)(Key k);
 typedef struct _table
 {
 	Slot tbl[MAX_TBL];
-	int (*hf)(int);
+	HashFunc hf;
 }Table;
 
-void TBLInit(Table* pt, int (*f)(int));
+void TBLInit(Table* pt, HashFunc f);
 void TBLInsert(Table* pt, Key k, Value v);
 Value TBLDelete(Table* pt, Key k);
 Value TBLSearch(Table* pt, Key k);

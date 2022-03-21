@@ -1,3 +1,0 @@
-D:/Github/DataStructure/Sorting/cmake-build-debug/CMakeFiles/Sorting.dir
-D:/Github/DataStructure/Sorting/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Github/DataStructure/Sorting/cmake-build-debug/CMakeFiles/rebuild_cache.dir

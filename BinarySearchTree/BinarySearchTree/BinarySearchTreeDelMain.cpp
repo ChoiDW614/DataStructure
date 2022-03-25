@@ -1,3 +1,4 @@
+/*
 #include <iostream>
 #include "BinarySearchTree.h"
 
@@ -35,4 +36,4 @@ int main()
 	delete sNode;
 
 	return 0;
-}
+}*/

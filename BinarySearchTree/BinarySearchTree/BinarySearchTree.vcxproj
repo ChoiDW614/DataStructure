@@ -139,12 +139,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AVLRebalance.cpp" />
+    <ClCompile Include="AVLTreeMain.cpp" />
     <ClCompile Include="BinarySearchTree.cpp" />
     <ClCompile Include="BinarySearchTreeDelMain.cpp" />
     <ClCompile Include="BinarySearchTreeMain.cpp" />
     <ClCompile Include="BinaryTree2.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AVLRebalance.h" />
     <ClInclude Include="BinarySearchTree.h" />
     <ClInclude Include="BinaryTree2.h" />
   </ItemGroup>

@@ -1,4 +1,5 @@
 #include "BinarySearchTree.h"
+#include "AVLRebalance.h"
 #include <iostream>
 
 void BSTMakeAndInit(BTreeNode** pRoot)
@@ -11,36 +12,61 @@ BSTData BSTGetNodeData(BTreeNode* bst)
 	return GetData(bst);
 }
 
-void BSTInsert(BTreeNode** pRoot, BSTData data)
+//void BSTInsert(BTreeNode** pRoot, BSTData data)
+//{
+//	BTreeNode* pNode = nullptr;		// parent node
+//	BTreeNode* cNode = *pRoot;		// current node
+//	BTreeNode* nNode = nullptr;		// new node
+//
+//	while (cNode != nullptr) {
+//		if (data == GetData(cNode))
+//			return;
+//		pNode = cNode;
+//
+//		if (GetData(cNode) > data)
+//			cNode = GetLeftSubTree(cNode);
+//		else
+//			cNode = GetRightSubTree(cNode);
+//	}
+//
+//	nNode = MakeBTreeNode();
+//	SetData(nNode, data);
+//
+//	if (pNode != nullptr) {
+//		if (data < GetData(pNode))
+//			MakeLeftSubTree(pNode, nNode);
+//		else
+//			MakeRightSubTree(pNode, nNode);
+//	}
+//	else {
+//		*pRoot = nNode;
+//	}
+//	if(pNode == nullptr )
+//	*pRoot = Rebalance(pRoot);
+//}
+
+BTreeNode* BSTInsert(BTreeNode** pRoot, BSTData data)
 {
-	BTreeNode* pNode = nullptr;		// parent node
-	BTreeNode* cNode = *pRoot;		// current node
-	BTreeNode* nNode = nullptr;		// new node
-
-	while (cNode != nullptr) {
-		if (data == GetData(cNode))
-			return;
-
-		pNode = cNode;
-
-		if (GetData(cNode) > data)
-			cNode = GetLeftSubTree(cNode);
-		else
-			cNode = GetRightSubTree(cNode);
+	if (*pRoot == nullptr)
+	{
+		*pRoot = MakeBTreeNode();
+		SetData(*pRoot, data);
 	}
-
-	nNode = MakeBTreeNode();
-	SetData(nNode, data);
-
-	if (pNode != nullptr) {
-		if (data < GetData(pNode))
-			MakeLeftSubTree(pNode, nNode);
-		else
-			MakeRightSubTree(pNode, nNode);
+	else if (data < GetData(*pRoot))
+	{
+		BSTInsert(&((*pRoot)->left), data);
+		*pRoot = Rebalance(pRoot);
 	}
-	else {
-		*pRoot = nNode;
+	else if (data > GetData(*pRoot))
+	{
+		BSTInsert(&((*pRoot)->right), data);
+		*pRoot = Rebalance(pRoot);
 	}
+	else
+	{
+		return nullptr;
+	}
+	return *pRoot;
 }
 
 BTreeNode* BSTSearch(BTreeNode* bst, BSTData target)
@@ -124,6 +150,7 @@ BTreeNode* BSTRemove(BTreeNode** pRoot, BSTData target)
 		*pRoot = GetRightSubTree(pVRoot);
 
 	delete pVRoot;
+	*pRoot = Rebalance(pRoot);
 	return dNode;
 }
 

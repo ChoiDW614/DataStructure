@@ -21,6 +21,9 @@
     <ClInclude Include="BinaryTree2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AVLRebalance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BinarySearchTree.cpp">
@@ -33,6 +36,12 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="BinarySearchTreeDelMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLRebalance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AVLTreeMain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

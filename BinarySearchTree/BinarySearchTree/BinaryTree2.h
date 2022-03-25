@@ -32,6 +32,6 @@ BTreeNode* RemoveLeftSubTree(BTreeNode* bt);
 BTreeNode* RemoveRightSubTree(BTreeNode* bt);
 
 void ChangeLeftSubTree(BTreeNode* main, BTreeNode* sub);
-void ChangeRightSubTree(BTreeNode* main, BTreeNode* sub);
+void ChangeRightSubTree(BTreeNode* main, BTreeNode* sub); 
 
 #endif

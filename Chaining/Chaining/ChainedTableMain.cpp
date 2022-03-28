@@ -1,6 +1,7 @@
 #include <iostream>
+#include <cstdlib>
 #include "Person.h"
-#include "Table.h"
+#include "Table2.h"
 
 int MyHashFunc(int k)
 {
@@ -16,36 +17,36 @@ int main()
 
 	TBLInit(&myTbl, MyHashFunc);
 
-	np = MakePersonData(20120003, "Lee", "Seoul");
+	np = MakePersonData(900254, "Lee", "Seoul");
 	TBLInsert(&myTbl, GetSSN(np), np);
 
-	np = MakePersonData(20120012, "KIM", "Jeju");
+	np = MakePersonData(900139, "KIM", "Jeju");
 	TBLInsert(&myTbl, GetSSN(np), np);
 
-	np = MakePersonData(20170049, "HAN", "Kangwon");
+	np = MakePersonData(900827, "HAN", "Kangwon");
 	TBLInsert(&myTbl, GetSSN(np), np);
 
-	sp = TBLSearch(&myTbl, 20120003);
+	sp = TBLSearch(&myTbl, 900254);
 	if (sp != nullptr)
 		ShowPerInfo(sp);
 
-	sp = TBLSearch(&myTbl, 20120012);
+	sp = TBLSearch(&myTbl, 900139);
 	if (sp != nullptr)
 		ShowPerInfo(sp);
 
-	sp = TBLSearch(&myTbl, 20170049);
+	sp = TBLSearch(&myTbl, 900827);
 	if (sp != nullptr)
 		ShowPerInfo(sp);
-	
-	rp = TBLDelete(&myTbl, 20120003);
+
+	rp = TBLDelete(&myTbl, 900254);
 	if (rp != nullptr)
 		delete rp;
 
-	rp = TBLDelete(&myTbl, 20120012);
+	rp = TBLDelete(&myTbl, 900139);
 	if (rp != nullptr)
 		delete rp;
 
-	rp = TBLDelete(&myTbl, 20170049);
+	rp = TBLDelete(&myTbl, 900827);
 	if (rp != nullptr)
 		delete rp;
 
